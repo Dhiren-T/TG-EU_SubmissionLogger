@@ -1,11 +1,11 @@
 # ThreatGrid Remaining Submissions Logger
 
-This script was designed to locally log the number of remaining submissions avaialble with ThreatGrid at the time of running attached to the user credntials provided at execution. The resulting CSV data saves Date, Time stamp & number of remaining submissions. CSV log files are seperated into monthly log files for trending analysis. 
+This script has been designed to locally log the number of remaining submissions avaialble with ThreatGrid at the time of running attached to the user credntials provided at execution. The resulting CSV data saves Date, Time stamp & number of remaining submissions. CSV log files are seperated into monthly log files for trending analysis. 
 
 
 ## Use Case Description
 
-The script was designed to assist in visualising usage on a day, week, month basis in order to view submission perfrormance and available submission capacity.
+To assist in logging & visualising the remaining submissions avaialble during a day, week or monthly basis.
 
 ## Installation
 
