@@ -24,7 +24,7 @@ To execute with CLI argument:
 run the .py file passing CLI arguments username and apikey at execution:  
 
 Syntax: 
-EU_threatgrid_submission_logger.py <ThreatGrid UserName> <ThreatGrid User API Key>.
+- EU_threatgrid_submission_logger.py 'ThreatGrid UserName' 'ThreatGrid User API Key'
 
 If script is run without CLI args,  prompts will be displayed on screen.
 
