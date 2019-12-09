@@ -1,15 +1,29 @@
-# TG-EU-SubmissionCountLog
-Logs the number of remaining submissions in TG at the Org Level at the time of running.  Save data to monthly separated log files for submission trending. 
+# Threatgrid - EU system - SubmissionCountLogger
 
-# Options:
-Run with args username and apikey from command line
-Run wihtout args,  user will be prompted for credentials
+This script was designed to locally log the number of remaining submissions avaialble with ThreatGrid at the time of running attached to the user credntials provided at execution. The resulting CSV Saved data saves Date, Time stamp & number of remaining submissions. CSV log files are seperated into monthly log files for trending analysis. 
 
-Example Usage:  EU_threatgrid_submission_logger.py <userid> <Apikey>
 
-On execution a file named:  <month>/<year>.csv is created in the working directory;  logs the number of samples left from TG org level at the time of running.
+## Use Case Description
 
-Deployment:
-Run via Cron at an interval of every 30 minutes or 1 hour (user preference. no need to set any lower).  Data files are generated in working directory and seperated into monthly files.
+The script was designed to assist in visualising useage thorugh a day, week, month basis to view submission perfrormance and capacity.
 
-Currently set for the EU system.  Feel free to add additional useful info to the log as needed.
+## Installation
+
+The script has been coded to use the EU ThreatGrid API.  
+Copy the .py file to a new working directory.
+
+## Usage
+
+Recommended execution of the script is via CRON:
+
+   - Long term data logging on a 2-3 hour run interval
+   - Verbose short term logging on a 30 minute run interval.
+   *Be sure to run at a sensible interval*   
+
+To execute with CLI argument:   
+run the .py file passing CLI arguments username and apikey at execution:  
+
+Syntax: 
+EU_threatgrid_submission_logger.py <ThreatGrid UserName> <ThreatGrid User API Key>.
+
+If script is run without CLI args,  prompts will be displayed on screen.
