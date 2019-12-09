@@ -10,7 +10,7 @@ The script was designed to assist in visualising useage thorugh a day, week, mon
 ## Installation
 
 The script has been coded to use the EU ThreatGrid API.  
-Copy the .py file to a new working directory.
+Copy the .py file to a new working directory and execute as per useage section.
 
 ## Usage
 
@@ -18,12 +18,12 @@ Recommended execution of the script is via CRON:
 
    - Long term data logging on a 2-3 hour run interval
    - Verbose short term logging on a 30 minute run interval.
-   *Be sure to run at a sensible interval*   
+   - Be sure to run at a sensible interval   
 
 To execute with CLI argument:   
-run the .py file passing CLI arguments username and apikey at execution:  
+- run the .py file passing CLI arguments username and apikey at execution:  
 
 Syntax: 
-EU_threatgrid_submission_logger.py <ThreatGrid UserName> <ThreatGrid User API Key>.
+- EU_threatgrid_submission_logger.py <ThreatGrid UserName> <ThreatGrid User API Key>.
 
 If script is run without CLI args,  prompts will be displayed on screen.
