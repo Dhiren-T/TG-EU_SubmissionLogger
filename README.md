@@ -27,3 +27,6 @@ Syntax:
 EU_threatgrid_submission_logger.py <ThreatGrid UserName> <ThreatGrid User API Key>.
 
 If script is run without CLI args,  prompts will be displayed on screen.
+
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/DT-dev1/TG-EU-SubmissionCountLog)
