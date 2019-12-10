@@ -41,7 +41,7 @@ If script is run without CLI args,  prompts will be displayed on screen for user
   - File name: 'month'-'year'.csv (if the file already exists it will be appended with the result)
   - CSV column headings: System DATE | System Time | Number of remaining API Submission
 
-## Example Usage:
+## Example
 
 ````DEMO>pwd
 /home/demo
