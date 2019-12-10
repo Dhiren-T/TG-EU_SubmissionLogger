@@ -8,8 +8,8 @@ Objective is to provide local logging & visability of the remaining api submissi
 
 ## Cisco ThreatGrid Credentals
 
-  + Login to the portal and click "My Account" from the top Right of the GUI
-  + Retrieve your API key
+  * Login to the portal and click "My Account" from the top Right of the GUI
+  * Retrieve your API key
 
 ## Installation
 
