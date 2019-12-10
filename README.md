@@ -32,9 +32,9 @@ If script is run without CLI args,  prompts will be displayed on screen for user
 
 ## Script Output
 
-  - Upon execution of the script a new file will be created in the same working directory where the script was executed.
-  - File name will be 'month'-'year'.csv ( if the file already exists it will be appended with the result)
-  - CSV Column Headings: System DATE | System Time | Number of remaining API Submission
+  - Upon execution of the script a new file will be created in the working directory where the script was executed.
+  - File name will be 'month'-'year'.csv (if the file already exists it will be appended with the result)
+  - CSV column headings: System DATE | System Time | Number of remaining API Submission
 
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/DT-dev1/TG-EU-SubmissionCountLog)
