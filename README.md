@@ -43,7 +43,8 @@ If script is run without CLI args,  prompts will be displayed on screen for user
 
 ## Example
 
-````DEMO>pwd
+````
+DEMO>pwd
 /home/demo
 
 DEMO>ls
