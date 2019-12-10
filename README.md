@@ -20,7 +20,7 @@ Recommended execution of the script is via CRON:
 
    - Long term data logging on a 2-3 hour run interval
    - Verbose short term logging on a 30 minute run interval.
-   *Be sure to run at a sensible interval*   
+   - Be sure to run at a sensible interval  
 
 To execute with CLI argument:   
   - run the .py file passing CLI arguments username and apikey at execution:  
