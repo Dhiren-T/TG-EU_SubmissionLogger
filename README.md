@@ -1,4 +1,4 @@
-# ThreatGrid Remaining Submissions Logger
+# Cisco ThreatGrid Remaining Submissions Logger
 
 This script has been designed to locally log the number of remaining submissions available with ThreatGrid at the time of running attached to the user credentials provided at execution. The resulting CSV data saves Date, Time stamp & number of remaining submissions. CSV log files are seperated into monthly log files for trending analysis.   You must have a valid login and API key for the Cisco Threatgrid Platform to use the code. 
 
