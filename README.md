@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/DT-dev1/TG-EU_SubmissionLogger)
+
 # ThreatGrid Remaining Submissions Logger
 
 This script has been designed to locally log the number of remaining submissions available with ThreatGrid at the time of running attached to the user credentials provided at execution. The resulting CSV data saves Date, Time stamp & number of remaining submissions. CSV log files are seperated into monthly log files for trending analysis.   You must have a valid login and API key for the Cisco Threatgrid Platform to use the code. 
@@ -13,7 +15,7 @@ Objective is to provide local logging & visibility of the remaining api submissi
 
 ## Installation
 
-The script has been coded to use the EU ThreatGrid API.
+The script has been coded to use either EU or US ThreatGrid clouds.
 
 - Copy the .py file to a new working directory.
 - Ensure execute permissions are applied using CHMOD
@@ -28,12 +30,15 @@ Recommended execution of the script is via CRON:
 - Be sure to run at a sensible interval  
 
 To execute with CLI argument:   
-- run the .py file passing CLI arguments username and apikey at execution:  
+- run the .py file passing CLI arguments with your Threatgrid username Threatgrid apikey and region (eu or US) at execution:  
 
 Syntax: 
-- EU_threatgrid_submission_logger.py 'ThreatGrid UserName' 'ThreatGrid User API Key'
+- EU_threatgrid_submission_logger.py 'ThreatGrid UserName' 'ThreatGrid User API Key' 'EU|COM'
 
-If script is run without CLI args,  prompts will be displayed on screen for username and TG API key.
+- If you login to panacea.threatgrid.com use 'com' in the region field
+- If you login to panacea.threatgrid.eu use 'eu' in the region field 
+
+If the script is run without CLI args,  prompts will be displayed on screen for username, TG API key & Region
 
 ## Script Output
 
@@ -50,7 +55,7 @@ DEMO>pwd
 DEMO>ls
 EU_threatgrid_submission_logger_v1.1.py
 
-DEMO>python EU_threatgrid_submission_logger_v1.1.py <username> <Api Key>
+DEMO>python EU_threatgrid_submission_logger_v1.1.py <username> <Api Key> <eu|com>
 
 DEMO>ls
 12-2019.csv  EU_threatgrid_submission_logger_v1.1.py
@@ -59,5 +64,4 @@ DEMO>cat 12-2019.csv
 10/12/2019,11:58:16,100
 
 ````
-
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/DT-dev1/TG-EU-SubmissionCountLog)
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/DT-dev1/TG-EU_SubmissionLogger)
