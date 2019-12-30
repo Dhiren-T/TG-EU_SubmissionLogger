@@ -36,7 +36,7 @@ Syntax:
 - EU_threatgrid_submission_logger.py 'ThreatGrid UserName' 'ThreatGrid User API Key' 'EU|COM'
 
 - If you login to panacea.threatgrid.com use 'com' in the region field.
-- If you login to panacea.threatgrid.eu use 'eu' in the region field. 
+- If you login to panacea.threatgrid.eu use 'eu' in the region field.
 
 If the script is run without CLI args,  prompts will be displayed on screen for username, TG API key & Region
 
