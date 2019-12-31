@@ -17,34 +17,34 @@ Objective is to provide local logging & visibility of the remaining api submissi
 
 The script has been coded to use either EU or US ThreatGrid clouds.
 
-- Copy the .py file to a new working directory.
-- Ensure execute permissions are applied using CHMOD
-- Execute the EU_threatgrid_submission_logger.py as per Usage section.
+* -Copy the .py file to a new working directory.
+* -Ensure execute permissions are applied using CHMOD
+* -Execute the EU_threatgrid_submission_logger.py as per Usage section.
 
 ## Usage
 
 Recommended execution of the script is via CRON:
 
-- Long term data logging on a 2-3 hour run interval
-- Verbose short term logging on a 30 minute run interval.
-- Be sure to run at a sensible interval  
+* -Long term data logging on a 2-3 hour run interval
+* -Verbose short term logging on a 30 minute run interval.
+* -Be sure to run at a sensible interval  
 
 To execute with CLI argument:   
-- run the .py file passing CLI arguments with your Threatgrid username Threatgrid apikey and region (eu or US) at execution:  
+* -run the .py file passing CLI arguments with your Threatgrid username Threatgrid apikey and region (eu or US) at execution:  
 
 Syntax: 
-- EU_threatgrid_submission_logger.py 'ThreatGrid UserName' 'ThreatGrid User API Key' 'EU|COM'
+* -EU_threatgrid_submission_logger.py 'ThreatGrid UserName' 'ThreatGrid User API Key' 'EU|COM'
 
-- If you login to panacea.threatgrid.com use 'com' in the region field.
-- If you login to panacea.threatgrid.eu use 'eu' in the region field.
+* -If you login to panacea.threatgrid.com use 'com' in the region field.
+* -If you login to panacea.threatgrid.eu use 'eu' in the region field.
 
 If the script is run without CLI args,  prompts will be displayed on screen for username, TG API key & Region
 
 ## Script Output
 
-- Upon execution of the script a new file will be created in the working directory where the script was executed.
-- File name: 'month'-'year'.csv (if the file already exists it will be appended with the result)
-- CSV column headings: System DATE | System Time | Number of remaining API Submission
+* -Upon execution of the script a new file will be created in the working directory where the script was executed.
+* -File name: 'month'-'year'.csv (if the file already exists it will be appended with the result)
+* -CSV column headings: System DATE | System Time | Number of remaining API Submission
 
 ## Example
 
